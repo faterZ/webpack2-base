@@ -8,8 +8,8 @@ var pwd = process.env.PWD || process.cwd();
 module.exports = {
     devServerPort: 8080, // dev 服务器端口
     serverUrl: "", //dev 服务器打开域名,默认为 http://localhost
-    serverHotReload: false, //dev 服务器热重载
-    openBrowser: false, //是否自动打开浏览器
+    serverHotReload: true, //dev 服务器热重载
+    openBrowser: true, //是否自动打开浏览器
     productSourceMap: false, //pub 是否生成 source map
     extractCss: true, // 是否导出 css 文件
     staticTplDir: path.resolve(pwd, "./static-tpl"),
