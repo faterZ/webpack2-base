@@ -7,8 +7,7 @@
     "dev": "node .config/build/dev.js",
     "pub": "node .config/build/pub.js",
     "watch": "node .config/build/watch.js",
-    "test": "node .config/build/test.js",
-    "init": "npm i && node .config/init.js"
+    "test": "node .config/build/test.js"
   },
   "keywords": [],
   "author": "",

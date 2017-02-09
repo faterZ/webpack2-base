@@ -3,7 +3,7 @@
  */
 
 var merge = require("webpack-merge");
-var configCommon = require("../build/configCommon");
+var configCommon = require("./configCommon");
 var buildBaseConf = require("./base");
 
 var entryList = buildBaseConf.build.entryList;
@@ -15,14 +15,7 @@ var pubEntryList = {
             template: "./index.ejs"
         }
 
-    },
-    index1: {
-        HtmlPluginConf: {
-            filename: "./index-pub-1.html",
-            template: "./index1.ejs"
-        }
     }
-
 }
 
 

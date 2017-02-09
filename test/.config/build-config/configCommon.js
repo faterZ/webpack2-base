@@ -5,8 +5,11 @@ var merge = require("webpack-merge");
 
 module.exports = {
 
+
     mergeTwoObjList(o1, o2){
         var tempList = {};
+
+
         var keys = Object.keys(o1);
 
         for (var i = 0, key; key = keys[i]; i++) {
